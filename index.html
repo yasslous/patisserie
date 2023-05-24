@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your cacke site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p><span>Your</span>Cacke</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#menu">Cackes</a></li>
+            <li><a href="#about_us">A propos</a></li>
+            <li><a href="#reservation">Passez commande</a></li>
+        </ul>
+        <!--menu responsive-->
+        <div class="toggle_menu"></div>
+
+    </header>
+    <!--section accueil home-->
+    <section id="home">
+        <div class="left">
+            <h4>Our New Cacke</h4>
+            <h1>SPONGE CACKE</h1>
+            <p>Beautiful cakes are much more than expertly slicked buttercream frosting and piped rosettes. They're about knowing little tricks for making the whole production prettier as well as tastier</p>
+            <button><a href="#">Commander maintenant</a></button>
+        </div>
+        <div class="right">
+            <img src="the-tomboy-cake.webp" >
+        </div>
+    </section>
+    <!--section menu-->
+    <section id="menu">
+        <h4 class="title-menu">Ours Cackes</h4>
+        <h2 class="title">Popular Cacke</h2>
+        <div class="tiramisus">
+            <div class="tiramisu">
+                <img src="tiramisu.png" >
+                <p>Le Véritable Tiramisu</p>
+                <h2>7dt</h2>
+                <a href="#">bUY</a>
+
+            </div>
+            <div class="tiramisu">
+                <img src="images.jpeg" >
+                <p>Tiramisu à la fraise</p>
+                <h2>7.5dt</h2>
+                <a href="#">bUY</a>
+
+             </div>
+             <div class="tiramisu">
+                <img src="tiramisu2.jpg" >
+                <p>Tiramisu inratable</p>
+                <h2>7dt</h2>
+                <a href="#">bUY</a>
+
+             </div>
+             <div class="tiramisu">
+                <img src="tiramisu3.jpg" >
+                <p>Gateau tiramisu</p>
+                <h2>15dt</h2>
+                <a href="#">bUY</a>
+
+             </div>
+             <div class="tiramisu">
+                <img src="tiramisu4.jpg" >
+                <p>Gateau tiramisu</p>
+                <h2>20dt</h2>
+                <a href="#">bUY</a>
+
+             </div>
+             <div class="tiramisu">
+                <img src="tiramisu5.jpg" >
+                <p>Tiramisu aux framboises</p>
+                <h2>8dt</h2>
+                <a href="#">bUY</a>
+
+             </div>
+        </div>
+
+
+    </section>
+    <!--section about us-->
+    <section id="about_us">
+        <h4 class="title-menu">About Us</h4>
+        <h2 class="title">Why choose us ?</h2>
+        <div class="about">
+            <div class="left">
+                <img src="images (1).jpeg" >
+            </div>
+            <div class="right">
+                <h3>Best Cacke in The World</h3>
+                <p>Préparés avec amour, décorés avec fantaisie : nos tutoriels et recettes vous montrent comment cuisiner vous-même un magnifique gâteau recouvert de fondant. À l'aide de nos conseils, la garniture et la décoration de vos gâteaux de rêve et de vos cupcakes créatifs seront parfaitement réussies</p>
+                <p>Avez-vous déjà essayé de mettre de l'amour dans un gâteau ? Sans doute cet ingrédient magique se retrouve-t-il bien souvent en cuisine, tant la notion de partage et la volonté de faire plaisir à ceux que l’on aime est essentielle dans ce domaine. Mais dans les contes de fées, l’amour peut littéralement devenir un ingrédient !</p>
+                <button><a href="#">Learn More</a></button>
+
+            </div>
+        </div>
+
+    </section>
+    <!--section comments-->
+    <section id="comments_section">
+        <h4 class="title-menu">Comments</h4>
+        <h2 class="title">What people this about us ?</h2>
+        <div class="comments">
+            <div class="comment">
+                <div>
+                    <img src="cheesecake-framboise-citron5.jpg" >
+                    <h4>cheesecake</h4>
+                </div>
+              <p>Un gâteau au fromage ou tarte au fromage ou cheesecake est un dessert-pâtisserie à base de fromage, le plus souvent du fromage frais ou caillé ou fromage blanc, généralement sucré, ou parfois salé</p>
+           
+           
+        </div>
+        
+            <div class="comment">
+                <div>
+                    <img src="licorne.jpg" >
+                    <h4>gateau anniversaire</h4>
+                </div>
+              <p>Un gâteau d'anniversaire est tautologiquement un gâteau servi à l'occasion d'un anniversaire.</p>
+           
+           
+        </div>
+        
+            <div class="comment">
+                <div>
+                    <img src="images (2).jpeg" >
+                    <h4>gateau de fiançailles</h4>
+                </div>
+              <p>Un gâteau de fiançailles est tautologiquement un gâteau servi à l'occasion de fiançailles.</p>
+           
+           
+        </div>
+    </div>
+
+    </section>
+    <!---section reservation-->
+    <section id="reservation">
+        <h4 class="title-menu">commander</h4>
+        <h2 class="title">Remplissez ce formulaire pour passez une commande.</h2>
+        <form action="">
+            <label>Your name</label>
+            <input type="text" id="nom">
+            <label>Your Email</label>
+            <input type="email" id="email">
+            <label>Your Number</label>
+            <input type="text" id="numTel" >
+            <label>La date de commande</label>
+            <input type="date">
+            <input type="submit" value="Passez une commande" onclick="verifier()">
+        </form>
+
+    </section>
+    <!--footer-->
+    <footer>
+        <h4 class="title-menu">Bienvenue à notre chatbot !</h4>
+        <h2 class="title"> vous pouvez nous poser des questions </h2>
+        <div class="services">
+            <div class="service">
+                <form action="" name="chatbot" >
+                    <label >Question</label>
+                    <input type="text" id="question">
+                    <input type="submit" value="Poser" onclick="afficherReponse()">
+                </form>
+
+
+            </div>
+          <div class="service">
+            <p id="reponse"> La réponse sera afficher ici</p>
+          </div>
+            
+        </div>
+        <hr>
+        <p class="footer-text">Realisè par : <span>Yassmine Loussaief</span> Tous les droits sont reservès.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
